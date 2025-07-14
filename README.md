@@ -70,7 +70,16 @@ This project performs sentiment analysis on Twitter data using a Machine Learnin
    cd twitter-sentiment-analysis
 2.Install dependencies:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
+
+3.Set up Kaggle API key:
+- Download your kaggle.json file from your Kaggle account.
+- Place it in the project directory.
+- Run the following commands:
+  ```bash
+  mkdir -p ~/.kaggle
+  cp kaggle.json ~/.kaggle/
+  chmod 600 ~/.kaggle/kaggle.json
 
 
 ## 📊 Results
